@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Experiment",
+    "name": "FLYFIT",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -37,7 +37,9 @@
     "uniqCompNum": 11,
     "versionPublish": "4.4.0",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
