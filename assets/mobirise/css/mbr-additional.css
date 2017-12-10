@@ -571,12 +571,38 @@ a:hover {
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#scrollToTop a i:before {
+  content: '';
+  position: absolute;
+  height: 40%;
+  top: 25%;
+  background: #fff;
+  width: 2px;
+  left: calc(50% - 1px);
+}
+#scrollToTop a i:after {
+  content: '';
+  position: absolute;
+  display: block;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  width: 40%;
+  height: 40%;
+  left: 30%;
+  bottom: 30%;
+  transform: rotate(135deg);
+}
 /* Others*/
 .note-check a[data-value=Rubik] {
   font-style: normal;
 }
 .mbr-arrow a {
   color: #ffffff;
+}
+@media (max-width: 767px) {
+  .mbr-arrow {
+    display: none;
+  }
 }
 .form-control-label {
   position: relative;
@@ -1258,7 +1284,7 @@ body {
 .cid-qCixP49bZz {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/flyfit-background1-2000x1116.png");
+  background-image: url("../../../assets/images/screen-shot-2017-11-28-at-1.38.55-pm-916x1294.png");
 }
 .cid-qCixP49bZz B {
   color: #25938d;
